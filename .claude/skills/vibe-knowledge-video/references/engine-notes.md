@@ -42,6 +42,17 @@ PYTHONPATH=music python3 episodes/<ep>/score.py episodes/<ep>/out/music.wav   # 
 - 标签和印章出现的时间要够长（至少 1.5 秒），否则观众读不完。
 - 小场景悬在同一片雾里时，彼此隔开足够远，别让上一个场景的边角闯进下一个镜头。
 
-## 往小红书上传大文件
+## 往小红书、抖音上传大文件
 
 Chrome 扩展的文件上传上限是 10 MB，成片通常 50 MB 以上。做法：在后台运行本 skill 的 `scripts/serve-upload.mjs <成片.mp4> <封面.jpg>`，它在本机起一个只监听 127.0.0.1 的临时小服务器（只允许 `https://creator.xiaohongshu.com` 跨域，20 分钟后自动退出）；再在发布页里用脚本取回文件，构造 `File` 对象，通过 `DataTransfer` 放进页面的 `input[type=file]` 并触发 `change`，脚本头部的注释里有这段页面代码。封面在"编辑封面"里用同样的办法换。第 1 集就是这样传上去的（56 MB）。电脑控制工具对浏览器只能看不能点，所以发布全程用 Chrome 扩展。
+
+### 抖音（creator.douyin.com）
+
+同一个办法，实测可用（第 1 集，56 MB）。不同的地方：
+
+- 起服务器时加 `ORIGIN=https://creator.douyin.com`，否则页面取不到文件。
+- 上传页是 `https://creator.douyin.com/creator-micro/content/upload`，视频放进页面上 `accept` 含 `video/mp4` 的那个 `input[type=file]`；传完自动进入发布页。
+- 发布页：标题栏不超过 30 字；正文在下面的描述框里，话题直接打 `#词`，等下拉出现后按回车选第一项，一个一个加。
+- 封面：点「选择封面」（竖封面 3:4），在弹窗里把 `/c.jpg` 放进 `.semi-upload input.semi-upload-hidden-input`（「上传封面」那个），点「完成」；随后弹出的横封面提示选「暂不设置」，平台会按竖封面自动生成横版。
+- 其他设置保持默认（公开、允许保存、立即发布）。
+- **点「发布」后抖音可能要短信验证码。** 这一步只能用户本人做：停在弹窗上，请用户在浏览器里获取并填写验证码。
