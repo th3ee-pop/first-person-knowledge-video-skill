@@ -1,0 +1,56 @@
+{
+ "segments": [
+  {
+   "id": "S1",
+   "cards": [
+    {
+     "text": "凌晨一点十二分",
+     "sec": 2.6,
+     "en": "1:12 a.m."
+    },
+    {
+     "text": "眼睛已经睁不开了\n可就是不想睡",
+     "sec": 3.4,
+     "en": "Your eyes are closing.\nYou still don't want to sleep."
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "cards": [
+    {
+     "text": "心理学里有个词\n叫“睡前拖延”",
+     "sec": 3.4,
+     "small": "Kroese 等人于 2014 年提出",
+     "en": "Psychologists have a name for it:\n“bedtime procrastination.”",
+     "small_en": "Kroese et al., 2014"
+    },
+    {
+     "text": "白天的时间\n大多排给了别人",
+     "sec": 3.4,
+     "en": "Most of your day\nis scheduled by other people."
+    },
+    {
+     "text": "只有睡前这一小段\n完全归你自己",
+     "sec": 3.6,
+     "en": "This last stretch before bed\nis the only part that's all yours."
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "cards": [
+    {
+     "text": "你舍不得睡\n是舍不得这点“说了算”",
+     "sec": 3.8,
+     "en": "You're not hanging on to the night.\nYou're hanging on to being in charge."
+    },
+    {
+     "text": "那就在白天\n也给自己留一小块",
+     "sec": 4.0,
+     "en": "So keep a small piece\nof the day for yourself, too."
+    }
+   ]
+  }
+ ]
+}

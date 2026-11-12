@@ -1,0 +1,13 @@
+{
+  "name": "xhs-psych-studio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node tools/fetch-assets.mjs",
+    "render": "node tools/render.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "^23.11.1",
+    "three": "^0.170.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "考试的梦",
+  "title_en": "The Exam Dream",
+  "lead": 2.4,
+  "scale": 1,
+  "gap": 0.45,
+  "tail": 3.4,
+  "assets": {
+    "models": [
+      "old_bed_frame",
+      "ClassicNightstand_01",
+      "SchoolDesk_01",
+      "SchoolChair_01",
+      "dining_chair_02"
+    ],
+    "textures": [],
+    "hdris": [
+      "blocky_photo_studio"
+    ],
+    "avatars": [],
+    "anims": []
+  }
+}

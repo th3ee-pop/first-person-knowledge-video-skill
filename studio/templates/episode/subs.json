@@ -1,0 +1,5 @@
+{"segments":[
+  {"id":"S1","cards":[{"text":"第一屏","en":"First card","sec":3.0},{"text":"第二屏\n可以两行","en":"Second card\ncan be two lines","sec":3.4}]},
+  {"id":"S2","cards":[{"text":"进入结构","en":"Into the structure","sec":3.4,"small":"学术名词的一行注释","small_en":"One-line note on a term"}]},
+  {"id":"S3","cards":[{"text":"回到房间","en":"Back in the room","sec":3.6}]}
+]}

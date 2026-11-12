@@ -1,0 +1,28 @@
+{
+  "title": "报复性熬夜",
+  "lead": 1.4,
+  "scale": 1.08,
+  "tail": 3.2,
+  "assets": {
+    "models": [
+      "metal_office_desk",
+      "dining_chair_02",
+      "book_encyclopedia_set_01",
+      "desk_lamp_arm_01",
+      "alarm_clock_01",
+      "binder_notebook",
+      "potted_plant_04",
+      "old_bed_frame"
+    ],
+    "textures": [
+      "wood_floor_worn",
+      "painted_plaster_wall"
+    ],
+    "hdris": [
+      "blocky_photo_studio"
+    ],
+    "avatars": [],
+    "anims": []
+  },
+  "title_en": "Revenge Bedtime Procrastination"
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>Studio</title>
+<style>
+  html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #0f1022; }
+  #stage { position: relative; width: 1080px; height: 1920px; }
+  canvas { display: block; }
+  #c { transform-origin: 50% 45%; }
+  #vignette { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(ellipse 80% 60% at 50% 42%, rgba(0,0,0,0) 55%, rgba(5,5,15,0.6) 100%); }
+  #scrim { position: absolute; left: 0; right: 0; bottom: 0; height: 760px; pointer-events: none; background: linear-gradient(to bottom, rgba(12,12,30,0) 0%, rgba(12,12,30,.72) 38%, rgba(12,12,30,.86) 100%); }
+  #grain { position: absolute; inset: 0; pointer-events: none; opacity: .06; mix-blend-mode: overlay; }
+  #subs { position: absolute; left: 0; right: 0; top: 1395px; text-align: center; font-family: "Songti SC", "STSong", serif; font-weight: 600; color: #f4ecdc; font-size: 66px; letter-spacing: 6px; line-height: 1.5; text-shadow: 0 2px 24px rgba(0,0,0,.55); }
+  #subs .line { display: block; }
+  #subs .sub-small { font-size: 38px; font-weight: 400; color: #b9b3c9; letter-spacing: 3px; margin-top: 22px; font-family: "PingFang SC", sans-serif; }
+  body.en #subs { font-family: "Baskerville", "Georgia", serif; font-weight: 500; font-size: 58px; letter-spacing: 0.5px; line-height: 1.32; left: 90px; right: 90px; }
+  body.en #subs .sub-small { font-family: "Avenir Next", "Helvetica Neue", sans-serif; font-size: 34px; letter-spacing: 0.5px; margin-top: 20px; }
+  #overlay { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+  #rule { position: absolute; left: 50%; top: 1350px; width: 64px; height: 2px; margin-left: -32px; background: #e9b97a; opacity: 0; }
+  #flash { position: absolute; inset: 0; background: #fff; opacity: 0; pointer-events: none; }
+  #fade { position: absolute; inset: 0; background: #07070f; opacity: 1; pointer-events: none; }
+</style>
+<script type="importmap">
+{ "imports": { "three": "/node_modules/three/build/three.module.js", "three/addons/": "/node_modules/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+<div id="stage">
+  <canvas id="c" width="1080" height="1920"></canvas>
+  <canvas id="grain" width="540" height="960"></canvas>
+  <div id="vignette"></div>
+  <div id="scrim"></div>
+  <div id="overlay"></div>
+  <div id="rule"></div>
+  <div id="subs"></div>
+  <div id="flash"></div>
+  <div id="fade"></div>
+</div>
+<script type="module">
+  import { boot } from '/engine/studio.js';
+  boot(new URLSearchParams(location.search).get('ep')).catch(e => { console.error(e.stack || e); window.sceneError = String(e.stack || e); });
+</script>
+</body>
+</html>

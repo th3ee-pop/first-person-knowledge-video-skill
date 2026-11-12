@@ -1,0 +1,14 @@
+{
+  "title": "__TITLE__",
+  "title_en": "",
+  "lead": 1.4,
+  "scale": 1.08,
+  "tail": 3.2,
+  "assets": {
+    "models": ["metal_office_desk", "dining_chair_02", "desk_lamp_arm_01", "alarm_clock_01", "binder_notebook", "book_encyclopedia_set_01"],
+    "textures": [],
+    "hdris": [],
+    "avatars": [],
+    "anims": []
+  }
+}

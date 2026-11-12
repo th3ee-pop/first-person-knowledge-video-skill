@@ -1,0 +1,223 @@
+{
+ "segments": [
+  {
+   "id": "S1",
+   "cards": [
+    {
+     "text": "毕业好多年了，\n你又坐回了考场",
+     "en": "Years out of school,\nand you're back in an exam.",
+     "sec": 4
+    },
+    {
+     "text": "卷子发下来，一个字都不认识，\n这门课你一学期都没去过",
+     "en": "Not one question makes sense.\nYou never went to this class.",
+     "sec": 5.6
+    },
+    {
+     "text": "笔没水，甩了三下还是写不出，\n抬头看钟，二十分钟没了",
+     "en": "Your pen is dry. Shake. Nothing.\nThe clock: twenty minutes gone.",
+     "sec": 5.3
+    },
+    {
+     "text": "你心里还在嘀咕：\n等等，我不是早就毕业了吗？",
+     "en": "Part of you protests:\nwait, didn't I graduate?",
+     "sec": 4.5
+    },
+    {
+     "text": "然后你醒了，愣了好几秒，\n才想起来：早就不用考试了",
+     "en": "You wake up. It takes a moment:\nright. No more exams.",
+     "sec": 5.1
+    },
+    {
+     "text": "可过一阵子，\n它又来了",
+     "en": "Months later,\nit's back.",
+     "sec": 2.5
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "cards": [
+    {
+     "text": "一百多年前，弗洛伊德\n也老做这个梦。",
+     "en": "A century ago, Freud\nkept having it too.",
+     "sec": 3.8
+    },
+    {
+     "text": "他把它写进了《梦的解析》，\n归在「典型的梦」里。",
+     "en": "He put it in The Interpretation\nof Dreams, as a “typical dream.”",
+     "sec": 4.7
+    },
+    {
+     "text": "奇怪的是，一位同行说，\n只有当年考过的人才做这个梦，",
+     "en": "Oddly, a colleague said\nonly those who passed get it;",
+     "sec": 5.3,
+     "cont": true
+    },
+    {
+     "text": "真考砸了的，\n反而不做。",
+     "en": "those who really failed\nnever do.",
+     "sec": 2.6
+    },
+    {
+     "text": "弗洛伊德自己就是这样。\n他挂过一门法医学，",
+     "en": "Freud fit the pattern.\nHe once failed forensic medicine,",
+     "sec": 4.5,
+     "cont": true
+    },
+    {
+     "text": "可这门课，\n他一次也没梦见过。",
+     "en": "but never once\ndreamed about it.",
+     "sec": 3.1
+    },
+    {
+     "text": "他梦里考的，常常是植物学、\n动物学、化学，",
+     "en": "In his dreams, it was botany,\nzoology, chemistry —",
+     "sec": 4,
+     "cont": true
+    },
+    {
+     "text": "这几门当年他怕得要命，\n最后靠运气、靠考官手软才过。",
+     "en": "subjects he'd dreaded, and passed\non luck and a kind examiner.",
+     "sec": 5.3
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "cards": [
+    {
+     "text": "它挑日子也有讲究：\n常在第二天有件要紧事、",
+     "en": "It picks its nights, too:\nthe night before something big,",
+     "sec": 4.5,
+     "cont": true
+    },
+    {
+     "text": "你怕自己出丑的前一晚，\n比如要述职，要面试，",
+     "en": "when you could look foolish —\na presentation, an interview,",
+     "sec": 4.5,
+     "cont": true
+    },
+    {
+     "text": "或者要去见对方的家长。",
+     "en": "or meeting their parents.",
+     "sec": 2.7
+    },
+    {
+     "text": "弗洛伊德说，梦里那份慌，\n不是旧考试带来的，",
+     "en": "Freud says the panic\nisn't from the old exam.",
+     "sec": 4.5,
+     "cont": true
+    },
+    {
+     "text": "是你白天揣着的\n那件心事。",
+     "en": "It's the worry\nyou carried all day.",
+     "sec": 3
+    },
+    {
+     "text": "他说，考场连着\n小时候挨罚的那份怕；",
+     "en": "Exams carry a kid's fear\nof punishment, he says.",
+     "sec": 3.8,
+     "cont": true
+    },
+    {
+     "text": "长大后，罚你的换成了生活，\n所以肩上一有担子，",
+     "en": "Grown up, life punishes instead,\nso under pressure,",
+     "sec": 4.7,
+     "cont": true
+    },
+    {
+     "text": "就会梦回考场。",
+     "en": "back to the exam you go.",
+     "sec": 2.6
+    },
+    {
+     "text": "但它不只是在吓你。\n弗洛伊德对梦的根本看法是：",
+     "en": "But it's not just scaring you.\nFreud's core idea:",
+     "sec": 4.9,
+     "cont": true
+    },
+    {
+     "text": "梦不是胡乱的噪音，",
+     "en": "a dream isn't random noise.",
+     "sec": 2.2,
+     "cont": true
+    },
+    {
+     "text": "它会把事情，\n演成你心里希望的样子。",
+     "en": "It shows things\nthe way you'd wish them to be.",
+     "sec": 4
+    },
+    {
+     "text": "他说，吓人的梦也一样，\n只是得看底下那一层。",
+     "en": "Scary ones too, he says:\nlook underneath.",
+     "sec": 4.5
+    },
+    {
+     "text": "而你今晚最盼的，\n无非是明天别出事。",
+     "en": "And all you want tonight\nis for tomorrow to go okay.",
+     "sec": 4.4
+    },
+    {
+     "text": "梦就去旧事里翻，\n翻出一场你当年怕得要死、",
+     "en": "So the dream digs up an old exam\nthat terrified you,",
+     "sec": 4.5,
+     "cont": true
+    },
+    {
+     "text": "最后却什么事都没有的考试。",
+     "en": "and then came to nothing.",
+     "sec": 3.1
+    },
+    {
+     "text": "所以它只挑你考过的那场：\n挂掉的那场，证明不了「别怕」。",
+     "en": "So it only picks exams you passed;\na failed one can't say “relax.”",
+     "sec": 5.3
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "cards": [
+    {
+     "text": "梦里那句\n「我不是早就毕业了吗」，",
+     "en": "And that line in the dream,\n“didn't I graduate?” —",
+     "sec": 4,
+     "cont": true
+    },
+    {
+     "text": "听着像抗议，弗洛伊德说，\n其实是梦在安慰你：",
+     "en": "sounds like protest. Freud says\nit's comfort from the dream:",
+     "sec": 4.5,
+     "cont": true
+    },
+    {
+     "text": "别怕明天，想想当年你有多怕，\n后来什么事都没有。",
+     "en": "Don't fear tomorrow. You were this\nscared then, and nothing happened.",
+     "sec": 4.9
+    },
+    {
+     "text": "下次再梦见考试，\n先别急着慌。",
+     "en": "Next time it comes,\ndon't panic yet.",
+     "sec": 3.1,
+     "cont": true
+    },
+    {
+     "text": "它多半是在说：\n明天有件事，你很在乎。",
+     "en": "It's probably saying:\nsomething tomorrow matters to you.",
+     "sec": 3.8
+    },
+    {
+     "text": "明天那一关，\n多半也会像当年那样过去。",
+     "en": "Tomorrow will most likely\ngo the way that exam did.",
+     "sec": 4
+    },
+    {
+     "text": "所以笔没水也不要紧，\n那张卷子，你早就交上去了。",
+     "en": "So never mind the dry pen.\nYou turned that exam in years ago.",
+     "sec": 5.1
+    }
+   ]
+  }
+ ]
+}

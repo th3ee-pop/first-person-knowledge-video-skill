@@ -1,0 +1,31 @@
+# 只收：skill、项目说明、studio 生产线的源文件。其余一律不进仓库。
+/*
+!/.gitignore
+!/README.md
+!/CLAUDE.md
+!/AGENTS.md
+!/.claude/
+/.claude/*
+!/.claude/skills/
+!/studio/
+!/docs/
+
+# 密钥
+.env
+.env.*
+!.env.example
+
+# 依赖、素材缓存（fetch-assets 会重新下载）、渲染产物、配音
+node_modules/
+/studio/assets/*
+!/studio/assets/LICENSES.md
+/studio/out/
+/studio/music.wav
+/studio/episodes/*/out/
+/studio/episodes/*/voice/
+/studio/episodes/_*/
+
+.DS_Store
+__pycache__/
+*.pyc
+.superpowers/
