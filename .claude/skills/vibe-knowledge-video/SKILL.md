@@ -38,7 +38,7 @@ description: 用 studio/ 生产线制作竖屏知识短视频（小红书等平�
 **要旁白：**
 
 1. 检查 `studio/.env` 里 `DOUBAO_API_KEY`、`DOUBAO_VOICE_ZH`、`DOUBAO_VOICE_EN` 是否已填（只检查有没有值，例如 `grep -cE '^DOUBAO_API_KEY=.+' .env`，输出 1 就是填了）。key 的值不要读出来、打印、贴进对话或写进任何别的文件。没填就请用户按 `.env.example` 自己填，key 来自火山引擎控制台的豆包语音。
-2. 现用音色：中文 `zh_male_yuanboxiaoshu_uranus_bigtts`（渊博小叔），英文 `en_male_russell_uranus_bigtts`（Russell，英式）。换系列想换音色时，用 `voice.mjs --sample` 出几条试听让用户挑。
+2. 现用音色：中文 `zh_male_yuanboxiaoshu_uranus_bigtts`（渊博小叔），英文 `en_male_tim_uranus_bigtts`（Tim；原先的 Russell 用户听后觉得生硬，想要 3Blue1Brown 那种讲解声）。合成偶尔会出一条异常长的音频，`voice.mjs` 提示 "check these card lengths" 时，把那一屏从 `voice/manifest.json` 里删掉重跑。换系列想换音色时，用 `voice.mjs --sample` 出几条试听让用户挑。
 3. 文案定稿后运行 `node tools/voice.mjs <ep>`（单语言加 `--lang zh` 或 `--lang en`）。它会写出 `timeline.json`，此后每屏时长由配音长度决定。`sec` 仍然每屏都要写（估个大概）：合成之前引擎靠它排时间，缺了时长会算成 NaN。
 4. 一句话跨几屏时，给前面的屏标 `"cont": true`，这几屏会合成一口气念完。详见 README"旁白"一节。
 5. 改了文案就重跑 `voice.mjs`，只会重新合成改过的屏。
